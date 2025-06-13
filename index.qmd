@@ -9,7 +9,7 @@ Since computing infrastructure has evolved towards cloud computing, containeriza
 
 The book will start with the hardware needed in the first chapter followed by a chapter on the Operating Systems and Networking. The third chapter covers the installation ofbasic software. The next chapter will cover installation of specilized software and environments.
 
-Most of the resources are free open source.
+Most of the used resources are free open source.
 
 ![Computing Infrastructure](./figures/cover.png){fig-alt="Computing Infrastructure." fig-align="center" width=75%}
 
