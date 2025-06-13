@@ -1,0 +1,16 @@
+# Preface {.unnumbered}
+
+
+This book serves as a practical guide for setting up and managing the computing infrastructure needed for working in fields like software engineering, data science, and AI. It bridges the gap between theoretical knowledge and real-world implementation, focusing on hands-on approaches for building and optimizing the development environment needed in a company such as Antechtra.
+
+The target audience is likely anyone wanting to move beyond basic computing and into the world of software development, data analysis, or AI/ML development. This audience includes anyone wanting to know how the infrastructure setup supports them.
+
+Since computing infrastructure has evolved towards cloud computing, containerization, web-based collaboration tools and the need for robust, scalable environments this book provides the adoption of these latest technologies using real-world scenarios and tools.
+
+The book will start with the hardware needed in the first chapter followed by a chapter on the Operating Systems and Networking. The third chapter covers the installation ofbasic software. The next chapter will cover installation of specilized software and environments.
+
+Most of the resources are free open source.
+
+![Computing Infrastructure](./figures/cover.png){fig-alt="Computing Infrastructure." fig-align="center" width=75%}
+
+[comment]: <> (To learn more about Quarto books visit <https://quarto.org/docs/books>.)
