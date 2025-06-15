@@ -20,7 +20,7 @@ bibliography: references.bib
 
 format:
   html:
-    theme: flatly 
+    theme: cyborg
   pdf:
     documentclass: scrreprt
 
