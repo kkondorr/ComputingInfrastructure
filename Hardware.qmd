@@ -1,13 +1,19 @@
 # Hardware 
 
-This is a book created from markdown and executable code.
-
-See @knuth84 for additional discussion of literate programming.
+For developing software, performimg data analytics and implementing AI models it is required a specific type of hardware. We will present basic and advanced hardware that are useful for those tasks. This information reflects waht is available at the time of writing this book (june, 2025). 
 
 ## Basic Hardware
 
+### Laptop
+
+### Desktop
+
 
 ## Advanced Hardware
+
+### Laptop
+
+### Desktop
 
 
 ## Cloud Providers
