@@ -1,6 +1,0 @@
-quarto
-jupyter
-pandas
-matplotlib
-numpy
-

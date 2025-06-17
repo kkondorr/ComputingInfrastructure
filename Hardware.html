@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Computing Infrastructure - 2&nbsp; Systems Software</title>
+<title>Computing Infrastructure - 1&nbsp; Hardware</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,17 +50,17 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./BasicAppSoftware.html" rel="next">
-<link href="./Hardware.html" rel="prev">
+<link href="./SystemSoftware.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -101,7 +101,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./SystemSoftware.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Systems Software</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Hardware.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Hardware</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -134,13 +134,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Hardware.html" class="sidebar-item-text sidebar-link">
+  <a href="./Hardware.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Hardware</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./SystemSoftware.html" class="sidebar-item-text sidebar-link active">
+  <a href="./SystemSoftware.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Systems Software</span></span></a>
   </div>
 </li>
@@ -184,9 +184,9 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#operating-systems" id="toc-operating-systems" class="nav-link active" data-scroll-target="#operating-systems"><span class="header-section-number">2.1</span> Operating Systems</a></li>
-  <li><a href="#networking-systems" id="toc-networking-systems" class="nav-link" data-scroll-target="#networking-systems"><span class="header-section-number">2.2</span> Networking Systems</a></li>
-  <li><a href="#virtual-systems" id="toc-virtual-systems" class="nav-link" data-scroll-target="#virtual-systems"><span class="header-section-number">2.3</span> Virtual Systems</a></li>
+  <li><a href="#basic-hardware" id="toc-basic-hardware" class="nav-link active" data-scroll-target="#basic-hardware"><span class="header-section-number">1.1</span> Basic Hardware</a></li>
+  <li><a href="#advanced-hardware" id="toc-advanced-hardware" class="nav-link" data-scroll-target="#advanced-hardware"><span class="header-section-number">1.2</span> Advanced Hardware</a></li>
+  <li><a href="#cloud-providers" id="toc-cloud-providers" class="nav-link" data-scroll-target="#cloud-providers"><span class="header-section-number">1.3</span> Cloud Providers</a></li>
   </ul>
 </nav>
     </div>
@@ -195,7 +195,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Systems Software</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Hardware</span></h1>
 </div>
 
 
@@ -214,14 +214,14 @@ div.csl-indent {
 
 <p>This is a book created from markdown and executable code.</p>
 <p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
-<section id="operating-systems" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="operating-systems"><span class="header-section-number">2.1</span> Operating Systems</h2>
+<section id="basic-hardware" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="basic-hardware"><span class="header-section-number">1.1</span> Basic Hardware</h2>
 </section>
-<section id="networking-systems" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="networking-systems"><span class="header-section-number">2.2</span> Networking Systems</h2>
+<section id="advanced-hardware" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="advanced-hardware"><span class="header-section-number">1.2</span> Advanced Hardware</h2>
 </section>
-<section id="virtual-systems" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="virtual-systems"><span class="header-section-number">2.3</span> Virtual Systems</h2>
+<section id="cloud-providers" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="cloud-providers"><span class="header-section-number">1.3</span> Cloud Providers</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -643,13 +643,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Hardware.html" class="pagination-link" aria-label="Hardware">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Hardware</span></span>
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./BasicAppSoftware.html" class="pagination-link" aria-label="Basic Application Software">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Basic Application Software</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./SystemSoftware.html" class="pagination-link" aria-label="Systems Software">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Systems Software</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
